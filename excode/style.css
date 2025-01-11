@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(218, 228, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.attribution {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    min-width: 300px;
+    width: 300px;
+}
+.lighter{
+     font-size: 1rem;
+     color: gray;
+     line-height: 1.5;  
+}
+.bolder { 
+    font-size: 1.5rem;
+    margin: 16px 0 8px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.attribution img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 8px;
+}
+
+
